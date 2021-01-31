@@ -1,6 +1,12 @@
-#트러블슈팅
+## 환경
+### mysql : 8.x
+- mysql version 별로 차이 큼. 
+### #jdk 11.x (openjdk)
+- 8, 11, 15 가 많이 쓰임
 
-## 1.Intellij 한글 깨짐 문제
+##트러블슈팅
+
+### 1.Intellij 한글 깨짐 문제
 1. shift + shift 두번 누름
 2. edit custom vm option 선택
 3. 아래내용 추가
@@ -8,7 +14,7 @@
 -Dfile.encoding=UTF-8 
 ```
 
-## 2. Intellij gradle 문제
+### 2. Intellij gradle 문제
 1. 아래내용 입력
 ```aidl
 dependencies {
@@ -22,7 +28,7 @@ dependencies {
 3. dependency 항목 자동 다운로드.
 
 
-## 3. Hibernate 
+### 3. Hibernate 
 1. 실행은 되는데 테이블 만들어 지지 않음. => 아래 넣어 줌.
 ```aidl
 <class>com.demo.sk.jpa.Member</class>
