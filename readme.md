@@ -12,6 +12,9 @@
 - default-time-zone=Asia/Seoul 추가
 - 참고 : https://hunda.tistory.com/entry/MySQL-Windows-%EC%97%90%EC%84%9C-Timezone-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0
 
+### JPA 자료
+- https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/
+- https://ducmanhphan.github.io/2020-05-07-understanding-about-one-to-many-relationship-with-jpa/
 
 ### #jdk 11.x (openjdk)
 - 8, 11, 15 가 많이 쓰임
